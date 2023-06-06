@@ -32,7 +32,7 @@ const listReducer = (state =initialState, {type, payLoad}) => {
     
         default:
             return state ;
-    };
+    }
 };
 
 export default listReducer;

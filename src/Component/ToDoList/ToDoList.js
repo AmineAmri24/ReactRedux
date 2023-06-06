@@ -29,9 +29,7 @@ const ToDoList = () => {
       .filter((el) => el.isDone === false)
       .map((el) => <Task task={el} key={el.id} />)
       
-      :list.map((el) => (
-        <Task task={el} key={el.id}/>
-      ))}
+      :list.map((el) => <Task task={el} key={el.id}/> )}
     </div>
   );
 };
